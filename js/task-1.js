@@ -1,4 +1,4 @@
-function getUserNames(users) {
+const getUserNames = users => {
     const list = users.map(user => user.name);
     return list;
 }
